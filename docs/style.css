@@ -1,0 +1,158 @@
+/* global styles  */ /* added global styles here, since they apply to whole document */
+html {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+/* moved wrapper up here since it applies to many sections of my html */
+
+.wrapper { 
+  width: 80%;
+  margin: auto;
+}
+
+.button {
+  border: none;
+  color: white;
+  background-color: rgb(231, 164, 17);
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+/* header */
+header {
+  overflow: auto; /* added overflow auto because there were problems with my parent element sizing */
+  background-color: #60606d;
+}
+
+.logo-image {
+    float: left;
+    height: 80px;
+    padding-top: 10px;
+}
+  nav ul {
+    list-style-type: none;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    line-height: 4rem;
+  }
+  
+  nav li { float: right; } /* putting nav options to right side */
+  
+  nav li a { 
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #f5f5fa;
+  }
+
+/* hero */
+
+.hero {
+  background-color: #dddde1; 
+}
+
+.hero .wrapper {
+  overflow: auto;  /* added overflow auto because there were problems with my parent element sizing */
+  padding: 40px 0;
+}
+
+.hero .content {
+  float: left;
+  width: 40%; /* width of content + padding + border */
+  box-sizing: border-box;
+  padding-right: 40px;
+}
+.hero figure {
+  float: right;
+  width: 60%; /*changed from pixels to percentage, to work with any size window*/
+  margin: 0;
+  box-sizing: border-box; /* added border box to account for padding, margin */
+} 
+.hero figure img {
+  width: 100%;
+}
+
+/* projects */
+
+.projects {
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+}
+.card {
+  padding: 15px;
+  float: left;
+  width: calc(33.33% - 30px); 
+  box-sizing: border-box; /* added border box to account for padding, margin */
+  margin: 15px;
+}
+
+.image-placeholder { /* my original code */
+  background-color: rgb(172, 169, 169);
+  height: 200px;
+  margin: 5px;
+  width: 260px;
+}
+
+/* footer */
+
+.fat-footer {
+  background-color: #60606d; 
+  overflow: auto;
+}
+
+.fat-footer .column { /* added sections to footer */
+  float: left;
+  width: calc(33.33% - 30px); 
+  box-sizing: border-box;
+  margin: 15px;
+}
+.copyright {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.container {
+  background-color: #333;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/*scroll to top button*/
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(217, 145, 145); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+

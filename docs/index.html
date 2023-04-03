@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Assignment F</title>
+  <link rel="stylesheet" href="style.css" >
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<script src="app.js"></script>
+  <!-- Trinity Babichuk DLU 103 Assignment F-->
+</head>
+
+<body>
+
+  <header>
+    <div class="wrapper">
+      <img class="logo-image" src="images/dgl-logo.png" alt="digital design logo"><!--moved logo image to header wrapper, instead of in nav bar-->
+      <nav>
+        <ul>
+          <li><a href="services">Services</a></li>
+          <li><a href="portfolio">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="home">Home</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrapper"> <!--continuing consistent wrapper rules-->
+      <div class="content"> <!--added different class here, to style in CSS-->
+        <h1>Lorem Ipsum dolor sit amet</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus dui et est pulvinar, id accumsan
+          nisl
+          bibendum. Nam magna arcu, tempus vel molestie ut, porta a leo. Cras ut nunc dictum massa fringilla
+          ullamcorper.
+          Vivamus porta auctor eros, id vulputate felis ultricies eget. In hac habitasse platea dictumst. Nullam
+          tristique
+          sed quam ac vulputate. Mauris vitae nisi auctor, eleifend augue ut, interdum risus.
+        </p>
+        <button id="myButton" class="button">Find out how we can help you</button>
+      </div>
+      <figure> <!--added figure instead of image, as this is part of the content-->
+        <img src="images/distance-and-inclass-students.png" alt="Students attending class in person and via Zoom"
+          width="400">
+      </figure>
+    </div>
+  </section>
+
+  <section class="projects">
+    <h2>Check out our recent projects</h2>
+    <div class="card" id="card1"> <!--added different class name here, to fit with different rules in css-->
+      <h2>Nullam tristique sed quam</h2><!--this section is my original code-->
+      <div class="image-placeholder"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus dui et est pulvinar, id accumsan
+        nisl
+        bibendum. Nam magna arcu, tempus vel molestie ut, porta a leo.</p>
+      <button class="button">Learn more</button>
+    </div>
+    <div class="card" id="card2">
+      <h2>Nullam tristique sed quam</h2>
+      <div class="image-placeholder"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus dui et est pulvinar, id accumsan
+        nisl
+        bibendum. Nam magna arcu, tempus vel molestie ut, porta a leo.</p>
+      <button class="button">Learn more</button>
+    </div>
+    <div class="card" id="card3">
+      <h2>Nullam tristique sed quam</h2>
+      <div class="image-placeholder"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus dui et est pulvinar, id accumsan
+        nisl
+        bibendum. Nam magna arcu, tempus vel molestie ut, porta a leo.</p>
+      <button class="button">Learn more</button>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="card" id="card1"> <!--added different class name here, to fit with different rules in css-->
+      <h2>Nullam tristique sed quam</h2>
+      <div class="image-placeholder"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus dui et est pulvinar, id accumsan
+        nisl
+        bibendum. Nam magna arcu, tempus vel molestie ut, porta a leo.</p>
+      <button class="button">Learn more</button>
+    </div>
+    <div class="card" id="card2">
+      <h2>Nullam tristique sed quam</h2>
+      <div class="image-placeholder"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus dui et est pulvinar, id accumsan
+        nisl
+        bibendum. Nam magna arcu, tempus vel molestie ut, porta a leo.</p>
+      <button class="button">Learn more</button>
+    </div>
+    <div class="card" id="card3">
+      <h2>Nullam tristique sed quam</h2>
+      <div class="image-placeholder"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus dui et est pulvinar, id accumsan
+        nisl
+        bibendum. Nam magna arcu, tempus vel molestie ut, porta a leo.</p>
+      <button class="button">Learn more</button>
+    </div>
+  </section>
+
+  <footer> <!--changed this to footer instead of another section on the page-->
+    <section class="fat-footer"><!--separated the footer into two sections, one is wrapper class-->
+      <div class="wrapper">
+        <div class="column"><!--added column class, to style -->
+          <h3>Latest News</h3>
+          <b>October 1:</b><br>
+          Lorem ipsum dolor sit amet<br><br>
+          <b>September 15:</b><br>
+          Consectetur adipiscing elit. <br><br>
+          <b>September 10th:</b><br>
+          Phasellus dapibus dui et est pulvinar<br>
+        </div>
+        <div class="column">
+          <h3>About us</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus dui et est pulvinar, id accumsan
+            nisl bibendum. Nam magna arcu, tempus vel molestie ut, porta a leo.</p>
+          <button class="button">Get in touch</button>
+        </div>
+        <div class="column">
+          <h3>Follow us</h3>
+          Facebook<br><br>
+          Instagram<br><br>
+          Youtube<br><br>
+        </div>
+      </div>
+    </section>
+
+    <section class="copyright"><!--second footer section is here-->
+      Copyright North Island College - practice page
+    </section>
+
+  
+   <!--scroll to top button-->
+
+   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+   
+    
+  </footer>
+</body>
+
+</html>
